@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(191, 211, 216, 0.817);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+.main{
+    width: 900px;
+    height: 100%;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid antiquewhite;
+    background-color: gainsboro;
+}
+ h1{
+     text-align: center;
+     color: firebrick;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 600;
+ }
+ .container{
+     background-color: rgba(83, 237, 240, 0.838);
+     border-radius: 8px;
+     height: 80vh;
+     width: 600px;
+     padding: 15px;
+     opacity: 0.8;
+     border: 1px solid black;      
+     margin: 0 auto;             
+     
+     
+ }
+ input[type="text"],input[type="email"],input[type="number"],select{
+     width: 100%;
+     border-radius: 4px;
+     padding: 8px;
+     margin: 10px,0;
+     border: 1px solid #ccccccf3;
+     box-sizing: border-box;
+ }
+ .button{
+     width: 100%;
+     border-radius: 4px;
+     padding: 10px;
+     height: 40px;
+     background-color: blue;
+ }
+ h2{
+    text-align: center;
+ }
+ .e-list{
+    background-color: white;
+    text-decoration: none;
+    width: 635px;
+    border: 1px solid white;
+    margin-left: 130px;
+    align-items: center;
+    border-radius: 8px; 
+}
+ol li a{
+    text-decoration: none;
+}
+
+.e-details{
+    text-align: center;
+    width: 635px;
+    background-color: azure;
+    border: 1px solid whitesmoke;
+    border-radius:8px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 130px;
+}
+
+table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-top: 20px;
+}
+th{
+ background-color: rgba(47, 73, 205, 0.954);
+ justify-content: space-evenly;
+}
+
+th, td {
+ padding: 16px;
+ text-align: center;
+}
+
+img { 
+ border-radius: 50%; 
+ width: 50px; 
+ height: 50px; 
+}
+
+.location{
+    width: 635px;
+    background-color: azure;
+    border: 1px solid whitesmoke;
+    margin-left: 130px;
+    border-radius:8px;
+    font-size: 18px;
+}
+
+iframe{
+ width:635px;
+ height:450px;
+ border:none;
+}
